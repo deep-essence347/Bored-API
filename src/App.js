@@ -137,13 +137,15 @@ function App() {
 						<></>
 					)}
 				</div>
-				<button
-					type="button"
-					className="btn btn-outline-primary mx-auto"
-					onClick={generateActivity}
-				>
-					Generate Activity
-				</button>
+				<div className="container text-center">
+					<button
+						type="button"
+						className="btn btn-outline-primary mx-auto"
+						onClick={generateActivity}
+					>
+						Generate Activity
+					</button>
+				</div>
 			</div>
 			<div className="card my-5">
 				<h3 className="px-5 pt-3">Activity</h3>
